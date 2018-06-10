@@ -10,7 +10,7 @@ The PKCS#11 Cloud Driver communicates through a [wrapper](https://github.com/lea
 ##### Features
 - It can be used with the existing signing application
 - The digital signature is computed in Cloud, and it is only applied on the document.
-- For each use of the cryptographic objects, the user is prompted to submit his credentials (used for generating the keys and the certificate)
+- For each use of the cryptographic objects, the user is prompted to submit his credentials (used for accessing the keys and the certificate)
 - The crytographic operations are computed in the Cloud environment.
 
 
