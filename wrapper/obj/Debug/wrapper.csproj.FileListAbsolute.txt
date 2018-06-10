@@ -1,0 +1,7 @@
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\bin\Debug\wrapper.dll.config
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\bin\Debug\wrapper.dll
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\bin\Debug\wrapper.pdb
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\obj\Debug\wrapper.csprojResolveAssemblyReference.cache
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\obj\Debug\wrapper.dll
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\obj\Debug\wrapper.pdb
+E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\bin\Debug\RGiesecke.DllExport.Metadata.dll

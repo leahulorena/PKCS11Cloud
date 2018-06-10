@@ -1,0 +1,61 @@
+﻿Build started 05-Jun-17 3:23:27 PM.
+     1>Project "E:\ATM\LICENTA!!!\licenta\softhsm\softhsm\softhsm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\lib /I..\lib\pkcs11 /I..\lib\common /I..\lib\object_store /I..\lib\slot_mgr /I..\lib\session_mgr /I..\lib\data_mgr /I..\lib\handle_mgr /I..\lib\crypto /I..\lib\win32 /IC:\OpenSSL\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"E:\ATM\LICENTA!!!\licenta\softhsm\wrapper\bin\Debug\wrapper.dll" /analyze- /errorReport:prompt /clr:nostdlib SoftHSM.cpp
+         SoftHSM.cpp
+     1>SoftHSM.cpp(1412): warning C4101: 'hObjectCertificate' : unreferenced local variable
+     1>SoftHSM.cpp(1412): warning C4101: 'hObjectPrivateKey' : unreferenced local variable
+     1>SoftHSM.cpp(1413): warning C4101: 'keyObjectCount' : unreferenced local variable
+     1>SoftHSM.cpp(1413): warning C4101: 'objectCount' : unreferenced local variable
+     1>SoftHSM.cpp(1827): warning C4101: 'hwnd' : unreferenced local variable
+     1>SoftHSM.cpp(5505): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>SoftHSM.cpp(5891): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>SoftHSM.cpp(10034): warning C4101: 'hwnd' : unreferenced local variable
+     1>e:\atm\licenta!!!\licenta\softhsm\softhsm\softhsm.cpp(4055): warning C4700: uninitialized local variable 'hwnd' used
+     1>e:\atm\licenta!!!\licenta\softhsm\softhsm\softhsm.cpp(1297): warning C4700: uninitialized local variable 'hwnd' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ATM\LICENTA!!!\licenta\softhsm\Debug\softhsm.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenSSL\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\ATM\LICENTA!!!\licenta\softhsm\Debug\convarch.lib" libeay32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ATM\LICENTA!!!\licenta\softhsm\Debug\softhsm.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\credentials.obj
+         Debug\userPopupWindow.obj
+         Debug\access.obj
+         Debug\dllmain.obj
+         Debug\main.obj
+         Debug\P11Attributes.obj
+         Debug\P11Objects.obj
+         Debug\SoftHSM.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+            Creating library E:\ATM\LICENTA!!!\licenta\softhsm\Debug\softhsm.lib and object E:\ATM\LICENTA!!!\licenta\softhsm\Debug\softhsm.exp
+     1>convarch.lib(OSSLGOST.obj) : warning LNK4248: unresolved typeref token (0100001C) for 'engine_st'; image may not run
+     1>convarch.lib(OSSLEVPMacAlgorithm.obj) : warning LNK4248: unresolved typeref token (01000019) for 'engine_st'; image may not run
+     1>convarch.lib(OSSLEVPHashAlgorithm.obj) : warning LNK4248: unresolved typeref token (0100001D) for 'engine_st'; image may not run
+     1>convarch.lib(OSSLCryptoFactory.obj) : warning LNK4248: unresolved typeref token (01000018) for 'engine_st'; image may not run
+     1>convarch.lib(OSSLGOST.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'evp_pkey_ctx_st'; image may not run
+     1>convarch.lib(OSSLECPrivateKey.obj) : warning LNK4248: unresolved typeref token (0100001B) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLECPublicKey.obj) : warning LNK4248: unresolved typeref token (0100001B) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLUtil.obj) : warning LNK4248: unresolved typeref token (01000017) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLGOSTPublicKey.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLGOSTPrivateKey.obj) : warning LNK4248: unresolved typeref token (0100001B) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLECDSA.obj) : warning LNK4248: unresolved typeref token (0100001C) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLECDH.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'ec_group_st'; image may not run
+     1>convarch.lib(OSSLECPrivateKey.obj) : warning LNK4248: unresolved typeref token (01000017) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLECPublicKey.obj) : warning LNK4248: unresolved typeref token (01000017) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLGOSTPublicKey.obj) : warning LNK4248: unresolved typeref token (0100001B) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLGOSTPrivateKey.obj) : warning LNK4248: unresolved typeref token (01000018) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLECDSA.obj) : warning LNK4248: unresolved typeref token (01000019) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLECDH.obj) : warning LNK4248: unresolved typeref token (0100001B) for 'ec_key_st'; image may not run
+     1>convarch.lib(OSSLECDH.obj) : warning LNK4248: unresolved typeref token (0100001C) for 'ecdh_method'; image may not run
+     1>convarch.lib(OSSLECPublicKey.obj) : warning LNK4248: unresolved typeref token (01000020) for 'ec_point_st'; image may not run
+     1>convarch.lib(OSSLUtil.obj) : warning LNK4248: unresolved typeref token (01000018) for 'ec_point_st'; image may not run
+     1>convarch.lib(OSSLECDH.obj) : warning LNK4248: unresolved typeref token (01000026) for 'ec_point_st'; image may not run
+     1>convarch.lib(OSSLECDSA.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'ecdsa_method'; image may not run
+     1>convarch.lib(OSSLDSAPrivateKey.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'bignum_ctx'; image may not run
+     1>convarch.lib(OSSLECPrivateKey.obj) : warning LNK4248: unresolved typeref token (0100001D) for 'bignum_ctx'; image may not run
+     1>convarch.lib(OSSLECPublicKey.obj) : warning LNK4248: unresolved typeref token (0100001D) for 'bignum_ctx'; image may not run
+     1>convarch.lib(OSSLUtil.obj) : warning LNK4248: unresolved typeref token (0100001D) for 'bignum_ctx'; image may not run
+     1>convarch.lib(OSSLDHPrivateKey.obj) : warning LNK4248: unresolved typeref token (0100001A) for 'bignum_ctx'; image may not run
+     1>convarch.lib(OSSLRSA.obj) : warning LNK4248: unresolved typeref token (0100001E) for 'bignum_ctx'; image may not run
+         softhsm.vcxproj -> E:\ATM\LICENTA!!!\licenta\softhsm\Debug\softhsm.dll
+     1>Done Building Project "E:\ATM\LICENTA!!!\licenta\softhsm\softhsm\softhsm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.21

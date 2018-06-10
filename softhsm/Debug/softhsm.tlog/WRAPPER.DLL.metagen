@@ -1,0 +1,86 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly wrapper, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly RGiesecke.DllExport.Metadata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f52d83c1a22df51: 
+	hash=None, flags=None
+Class wrapper.Class1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    test(): PrivateScope, Public, Static, HideBySig
+    init(): PrivateScope, Public, Static, HideBySig
+Class wrapper.localhost.DSWS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Services.Protocols.SoapHttpClientProtocol
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Url 'get set' : 
+    Boolean UseDefaultCredentials 'get set' : 
+  Events:
+    wrapper.localhost.HelloWorldCompletedEventHandler HelloWorldCompleted: 
+    wrapper.localhost.LoginCompletedEventHandler LoginCompleted: 
+    wrapper.localhost.GetUserCertificateCompletedEventHandler GetUserCertificateCompleted: 
+  Methods:
+    get_Url(): PrivateScope, Public, HideBySig, SpecialName
+    set_Url(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UseDefaultCredentials(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseDefaultCredentials(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    add_HelloWorldCompleted(HelloWorldCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_HelloWorldCompleted(HelloWorldCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_LoginCompleted(LoginCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LoginCompleted(LoginCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_GetUserCertificateCompleted(GetUserCertificateCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_GetUserCertificateCompleted(GetUserCertificateCompletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    HelloWorld(): PrivateScope, Public, HideBySig
+    HelloWorldAsync(): PrivateScope, Public, HideBySig
+    HelloWorldAsync(Object): PrivateScope, Public, HideBySig
+    Login(String, String): PrivateScope, Public, HideBySig
+    LoginAsync(String, String): PrivateScope, Public, HideBySig
+    LoginAsync(String, String, Object): PrivateScope, Public, HideBySig
+    GetUserCertificate(String): PrivateScope, Public, HideBySig
+    GetUserCertificateAsync(String): PrivateScope, Public, HideBySig
+    GetUserCertificateAsync(String, Object): PrivateScope, Public, HideBySig
+    CancelAsync(Object): PrivateScope, Public, HideBySig
+Class wrapper.localhost.HelloWorldCompletedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, HelloWorldCompletedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, HelloWorldCompletedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class wrapper.localhost.HelloWorldCompletedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.AsyncCompletedEventArgs
+  Properties:
+    System.String Result 'get ' : 
+  Methods:
+    get_Result(): PrivateScope, Public, HideBySig, SpecialName
+Class wrapper.localhost.LoginCompletedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, LoginCompletedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, LoginCompletedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class wrapper.localhost.LoginCompletedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.AsyncCompletedEventArgs
+  Properties:
+    Boolean Result 'get ' : 
+  Methods:
+    get_Result(): PrivateScope, Public, HideBySig, SpecialName
+Class wrapper.localhost.GetUserCertificateCompletedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, GetUserCertificateCompletedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, GetUserCertificateCompletedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class wrapper.localhost.GetUserCertificateCompletedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.AsyncCompletedEventArgs
+  Properties:
+    System.String Result 'get ' : 
+  Methods:
+    get_Result(): PrivateScope, Public, HideBySig, SpecialName
